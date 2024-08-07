@@ -8,18 +8,13 @@ function GetStartedSection() {
         Get started. You are in charge.
       </p>
       <p className="text-[22px] text-customGray mt-2 mb-6 text-center">
-        Rise helps you schedule, optimize and protect your day to give you more
-        time for what's important.
+        CustomerWise AI optimizes and enhances your customer support, freeing up time for what truly matters
       </p>
 
       <div className="flex flex-col gap-8 md:flex-row">
         <MainButton
           text="Get started - It's free"
-          classes="bg-primary text-white w-[224.54px] h-[56px]"
-        />
-        <MainButton
-          text="Download Desktop app"
-          classes="bg-white text-black w-[224.54px] h-[56px] hover:bg-white"
+          classes="bg-white text-black w-[224.54px] h-[56px]"
         />
       </div>
     </section>

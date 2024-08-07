@@ -5,7 +5,7 @@ import { ChevronRight } from "lucide-react";
 function HeroSection() {
   return (
     <section className="flex flex-col justify-center items-center mt-20 px-8 ">
-      <p className="text-[35.8px] md:text-[75.8px] text-center mt-8">
+      <p className="text-[35.8px] md:text-[75.8px] text-center mt-8 font-bold">
         Always Here, Always Smart
       </p>
       <p className="text-[#706D79] font-semibold text-center my-4">

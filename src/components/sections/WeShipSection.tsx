@@ -41,7 +41,7 @@ function WeShipSection() {
     },
 
     {
-      date: "Read full changelog",
+      date: "Keep up to date",
       is_last: true,
     },
   ];
@@ -50,7 +50,7 @@ function WeShipSection() {
       <div className="flex flex-col gap-16 items-center justify-center">
         <div className="">
           <p className="text-black text-[40.5px] text-center">
-            We ship. Often.
+            We innovate. Often.
           </p>
           <p className="text-[#706D79] text-[22px] text-center">
             Product updates and announcements

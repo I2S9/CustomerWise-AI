@@ -35,20 +35,9 @@ function NavBar() {
             <p
               className={`hover:bg-[#0005370d] hover:px-4 hover:py-2 hover:rounded-[10px] cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
-              Manifest
+              Get Started
             </p>
-
-            <p
-              className={`hover:bg-[#0005370d] hover:px-4 hover:py-2 hover:rounded-[10px] cursor-pointer flex items-center gap-2  font-[500] text-gray`}
-            >
-              Changelog
-            </p>
-
-            <MainButton
-              text="Sign in"
-              classes="bg-white text-black border-[2px] border-gray-300 shadow-lg hover:bg-white"
-            />
-            <MainButton text="Get Started" />
+            <MainButton text="Sign In" />
           </div>
         </div>
       </div>
