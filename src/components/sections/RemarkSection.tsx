@@ -4,10 +4,10 @@ import ReviewerCard from "../cards/ReviewerCard";
 function RemarkSection() {
   const review_data = {
     review:
-      "Cross-calendar blocking in Rise is awesome. It seamlessly integrates my personal and work calendars, ensuring I never double-book or miss important events.",
+      "CustomerWise AI has revolutionized our customer service. The automated responses are quick and accurate, and our customers are thrilled with the improved response times. We can't imagine working without it!",
     image: "/images/man_2.png",
-    name: "Tuomas Artman",
-    role: "Co-founder at Linear",
+    name: "XXXX XXXX",
+    role: "Headstarter SWE",
     useDarkText: true,
   };
 

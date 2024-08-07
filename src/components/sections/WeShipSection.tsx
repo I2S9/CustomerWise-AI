@@ -5,38 +5,8 @@ import { ChevronRight } from "lucide-react";
 function WeShipSection() {
   const event_data = [
     {
-      date: "Dec 11, 2023",
-      event: "Smart color-coding",
-      is_last: false,
-    },
-    {
-      date: "Dec 8, 2023",
-      event: "Out of Office events",
-      is_last: false,
-    },
-    {
-      date: "Nov 30, 2023",
-      event: "Auto-join, always",
-      is_last: false,
-    },
-    {
-      date: "Nov 16, 2023",
-      event: "Raycast integration",
-      is_last: false,
-    },
-    {
-      date: "Nov 13, 2023",
-      event: "Flexible event improvements",
-      is_last: false,
-    },
-    {
-      date: "Nov 3, 2023",
-      event: "Month view",
-      is_last: false,
-    },
-    {
-      date: "Oct 30, 2023",
-      event: "Flexible events 2.0",
+      date: "Jul 8, 2024",
+      event: "Launched CustomerWise AI",
       is_last: false,
     },
 

@@ -6,19 +6,19 @@ import ReviewerCard from "../cards/ReviewerCard";
 function WhatImportantSection() {
   const first_row_data = {
     image_url: "/images/f_1.png",
-    title: "Automatically improve  focus time and resolve  conflicts",
+    title: "Upcoming",
     description:
-      "Upgrade your important events to flexible meetings and Rise takes care of the rest.",
+      "Upcoming",
   };
 
   const second_row_data = {
     image_url: "/images/f_2.png",
-    title: "Meet the fastest way to find the best time",
+    title: "Meet the fastest way to find the best assistance",
     options: [
-      "Find time that preserves your focus",
-      "Takes meeting preferences into account",
-      "Works with anyone in your team",
-      "Manages timezone differences",
+      "Feature 1",
+      "Feature 2",
+      "Feature 3",
+      "Feature 4",
     ],
     reverse: true,
   };
@@ -42,10 +42,10 @@ function WhatImportantSection() {
 
   const review_data = {
     review:
-      "As someone in tech, every minute counts. Rise gives me focus blocks, optimizes meeting times, and even lets my family know when to message me. It's a game-changer, saving me 2+ hours weekly, and that's not counting the distraction-free time.",
+      "Thanks to CustomerWise AI, we've significantly improved our customer satisfaction. The advanced features help us stay on top of every query, and the seamless integration has made our workflow smoother than ever. Our support team is now more productive and our customers are happier!",
     image: "/images/man.png",
-    name: "Thijs Bongertman",
-    role: "Head of Data at Circus",
+    name: "XXXX XXXX",
+    role: "Headstarter SWE",
   };
 
   return (
