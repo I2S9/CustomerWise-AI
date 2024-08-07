@@ -1,9 +1,5 @@
 # 💬 CustomerWise AI
 
-<div align="center">
-    c:\Users\leila\OneDrive\Bureau\customerwiseai-removebg-preview.png
-</div>
-
 ## What it does 🚀
 
 Upcoming Soon!
