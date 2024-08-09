@@ -31,12 +31,6 @@ function NavBar() {
             >
               Pricing
             </p>
-
-            <p
-              className={`hover:bg-[#0005370d] hover:px-4 hover:py-2 hover:rounded-[10px] cursor-pointer flex items-center gap-2  font-[500] text-gray`}
-            >
-              Get Started
-            </p>
             <MainButton text="Sign In" />
           </div>
         </div>
