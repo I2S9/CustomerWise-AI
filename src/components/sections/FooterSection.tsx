@@ -13,9 +13,6 @@ function FooterSection() {
         <a href="https://www.openai.com" target="_blank" rel="noopener noreferrer" className="font-bold text-white hover:underline">
           Powered by OpenAI
         </a>
-        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" className="font-bold text-white hover:underline">
-          Resources
-        </a>
       </div>
     </section>
   );
