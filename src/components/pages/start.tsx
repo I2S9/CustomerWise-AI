@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../common/NavBar";
 
-const Pricing: React.FC = () => {
+const Start: React.FC = () => {
   return (
     <div>
       <NavBar />
@@ -10,11 +10,11 @@ const Pricing: React.FC = () => {
         style={{ backgroundImage: `url('/images/hero_gradient.png')` }}
       >
         <h1 className="text-4xl text-white font-bold text-center pt-20">
-          Pricing Page
+          Let's Start Page
         </h1>
       </div>
     </div>
   );
 };
 
-export default Pricing;
+export default Start;

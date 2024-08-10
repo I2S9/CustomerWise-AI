@@ -28,6 +28,11 @@ const NavBar: React.FC = () => {
                 Pricing
               </p>
             </Link>
+            <Link href="/start" passHref>
+              <p className="hover:bg-[#0005370d] hover:px-4 hover:py-2 hover:rounded-[10px] cursor-pointer flex items-center gap-2 font-[500] text-gray">
+                Let's start
+              </p>
+            </Link>
             <MainButton text="Sign In" />
           </div>
         </div>
@@ -69,6 +74,11 @@ const NavBar: React.FC = () => {
               <Link href="/pricing" passHref>
                 <p className="cursor-pointer flex items-center gap-2 font-[500] text-gray">
                   Pricing
+                </p>
+              </Link>
+              <Link href="/start" passHref>
+                <p className="cursor-pointer flex items-center gap-2 font-[500] text-gray">
+                  Let's start
                 </p>
               </Link>
               <p className="cursor-pointer flex items-center gap-2 font-[500] text-gray">
