@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+"use client";
+
+>>>>>>> chiru
 import React, { useState } from "react";
 import { X } from "lucide-react";
 import Link from "next/link";
@@ -10,7 +15,11 @@ const NavBar: React.FC = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="md:sticky md:top-0 md:shadow-none z-20 ">
+=======
+    <div className="md:sticky md:top-0 md:shadow-none z-20">
+>>>>>>> chiru
       {/* DESKTOP */}
       <div className="hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between mx-[41px] items-center">
@@ -37,15 +46,31 @@ const NavBar: React.FC = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> chiru
       {/* MOBILE */}
       <div
         className={`block lg:hidden shadow-sm fixed top-0 w-full z-[999] bg-white py-4 animate-in fade-in zoom-in ${
           menu ? "bg-primary py-2" : ""
+<<<<<<< HEAD
         } `}
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
             <img src="/images/customerwise-ai.png" alt="logo" className="w-[5rem]" />
+=======
+        }`}
+      >
+        <div className="flex justify-between mx-[10px]">
+          <div className="flex gap-[50px] text-[16px] items-center select-none">
+            <img
+              src="/images/customerwise-ai.png"
+              alt="logo"
+              className="w-[5rem]"
+            />
+>>>>>>> chiru
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (
