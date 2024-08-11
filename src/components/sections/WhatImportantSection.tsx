@@ -5,20 +5,19 @@ import ReviewerCard from "../cards/ReviewerCard";
 
 function WhatImportantSection() {
   const first_row_data = {
-    image_url: "/images/f_1.png",
-    title: "Upcoming",
+    image_url: "/images/chatbot.png",
+    title: "Powerful",
     description:
-      "Upcoming",
+      "Empowering your team with intelligent support.",
   };
 
   const second_row_data = {
-    image_url: "/images/f_2.png",
+    image_url: "/images/reviews.png",
     title: "Meet the fastest way to find the best assistance",
     options: [
-      "Feature 1",
-      "Feature 2",
-      "Feature 3",
-      "Feature 4",
+      "Because great support starts with great feedback",
+      "Every comment helps us improve",
+      "Your experience, our priority",
     ],
     reverse: true,
   };
@@ -43,22 +42,19 @@ function WhatImportantSection() {
   const review_data = {
     review:
       "Thanks to CustomerWise AI, we've significantly improved our customer satisfaction. The advanced features help us stay on top of every query, and the seamless integration has made our workflow smoother than ever. Our support team is now more productive and our customers are happier!",
-    image: "/images/man.png",
-    name: "XXXX XXXX",
-    role: "Headstarter SWE",
+    image: "",
+    name: "",
+    role: "",
   };
 
   return (
     <section className="bg-customDark">
       <div className="ml-8">
         <p className="text-white  text-[40.5px] text-bold">
-          {/* More time for what&apos;s important. */}
           <br />
           Everyday
         </p>
         <p className="text-[22px] text-customGray">
-          {/* Rise is a beautiful calendar that uses hundreds of signals to find the
-          best times to meet, resolve conflicts and blocks off focus time. */}
         </p>
       </div>
 
