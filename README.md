@@ -2,7 +2,7 @@
 
 ## What it does 🚀
 
-***CustomerWise AI*** is an intelligent chatbot designed to revolutionize customer support. It provides seamless, 24/7 assistance, handling everything from answering FAQs to managing complex customer inquiries. With CustomerWise AI, your business can deliver exceptional customer service, freeing up valuable time for your team to focus on what really matters.
+CustomerWise AI is an intelligent chatbot designed to revolutionize customer support. It provides seamless, 24/7 assistance, handling everything from answering FAQs to managing complex customer inquiries. With CustomerWise AI, your business can deliver exceptional customer service, freeing up valuable time for your team to focus on what really matters.
 
 ## Accomplishments that we are proud of 🏆
 
