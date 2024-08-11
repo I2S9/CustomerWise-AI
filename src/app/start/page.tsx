@@ -93,13 +93,13 @@ const Start: React.FC = () => {
     <div>
       <NavBar />
       <div
-        className="h-screen bg-cover bg-center flex flex-col justify-center items-center"
+        className="h-screen bg-cover bg-center flex flex-col items-center"
         style={{ backgroundImage: `url('/images/hero_gradient.png')` }}
       >
-        <h1 className="text-4xl text-white font-bold text-center pt-20">
+        <h1 className="text-5xl text-white font-bold text-center mt-12 mb-8">
           Talk with CustomerWise AI chatbot below
         </h1>
-        <div className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-6 mt-6">
+        <div className="w-full max-w-5xl bg-white rounded-lg shadow-lg p-6">
           <div className="flex flex-col h-[500px] overflow-y-auto">
             <Chatbot />
           </div>
