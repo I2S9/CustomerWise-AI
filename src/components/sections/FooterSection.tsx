@@ -10,8 +10,8 @@ function FooterSection() {
         <a href="https://github.com/I2S9/customerwise-ai" target="_blank" rel="noopener noreferrer" className="font-bold text-white hover:underline">
           Github
         </a>
-        <a href="https://www.openai.com" target="_blank" rel="noopener noreferrer" className="font-bold text-white hover:underline">
-          Powered by OpenAI
+        <a href="https://www.llamaindex.ai/" target="_blank" rel="noopener noreferrer" className="font-bold text-white hover:underline">
+          Powered by Llama
         </a>
       </div>
     </section>
