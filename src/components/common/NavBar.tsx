@@ -16,9 +16,9 @@ const NavBar: React.FC = () => {
       {/* DESKTOP */}
       <div className="hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between mx-[41px] items-center">
-          <div>
-            <img src="/images/customerwise-ai.png" alt="logo" />
-          </div>
+        <Link href="/">
+          <img src="/images/customerwise-ai.png" alt="logo" />
+        </Link>
           <div className="flex items-center gap-[40px] select-none">
             <Link href="/features" passHref>
               <p className="hover:bg-[#0005370d] hover:px-4 hover:py-2 hover:rounded-[10px] cursor-pointer flex items-center gap-2 font-[500] text-gray">
@@ -46,13 +46,13 @@ const NavBar: React.FC = () => {
         }`}
       >
         <div className="flex justify-between mx-[10px]">
-          <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <img
-              src="/images/customerwise-ai.png"
-              alt="logo"
-              className="w-[5rem]"
-            />
-          </div>
+        <Link href="/">
+          <img
+            src="/images/customerwise-ai.png"
+            alt="logo"
+            className="w-[5rem]"
+          />
+        </Link>
           <div className="flex items-center gap-[40px]">
             {menu ? (
               <X
