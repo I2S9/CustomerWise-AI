@@ -1,9 +1,11 @@
 import { forwardRef, ReactElement } from "react";
 import { Loader2 } from "lucide-react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 type MainButtonProps = {
   text: string;
+  href?: string; 
   form?: string;
   isLoading?: boolean;
   action?: () => void;
@@ -24,6 +26,7 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
   (
     {
       text,
+      href,
       isLoading = false,
       form,
       action,
@@ -56,17 +59,8 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
     const variant_hover =
       variant === "primary" ? "hover:bg-primary" : "hover:bg-secondary";
 
-    return !isLoading ? (
-      <Button
-        form={form}
-        className={`${
-          isSecondaryVariant ? " text-white  bg-secondary" : "bg-primary"
-        } text-white shadow-xl ${propWidth} md:${propWidth}  select-none rounded-[0.625rem] hover:opacity-90 ${variant_hover} ${size_height} ${classes}`}
-        onClick={!disabled ? action : () => undefined}
-        type={isSubmitable ? "submit" : "button"}
-        ref={ref}
-        disabled={disabled}
-      >
+    const buttonContent = (
+      <>
         {iconRoute && (
           <img
             src={iconRoute}
@@ -86,6 +80,41 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
             className={rightIconClass}
           />
         )}
+      </>
+    );
+
+    if (href) {
+      return (
+        <Link href={href} passHref>
+          <a>
+            <Button
+              className={`${
+                isSecondaryVariant ? " text-white  bg-secondary" : "bg-primary"
+              } text-white shadow-xl ${propWidth} md:${propWidth}  select-none rounded-[0.625rem] hover:opacity-90 ${variant_hover} ${size_height} ${classes}`}
+              onClick={!disabled ? action : () => undefined}
+              type={isSubmitable ? "submit" : "button"}
+              ref={ref}
+              disabled={disabled}
+            >
+              {buttonContent}
+            </Button>
+          </a>
+        </Link>
+      );
+    }
+
+    return !isLoading ? (
+      <Button
+        form={form}
+        className={`${
+          isSecondaryVariant ? " text-white  bg-secondary" : "bg-primary"
+        } text-white shadow-xl ${propWidth} md:${propWidth}  select-none rounded-[0.625rem] hover:opacity-90 ${variant_hover} ${size_height} ${classes}`}
+        onClick={!disabled ? action : () => undefined}
+        type={isSubmitable ? "submit" : "button"}
+        ref={ref}
+        disabled={disabled}
+      >
+        {buttonContent}
       </Button>
     ) : (
       <Button
@@ -102,7 +131,6 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
   }
 );
 
-// Assigned display name
 MainButton.displayName = "MainButton";
 
 export default MainButton;

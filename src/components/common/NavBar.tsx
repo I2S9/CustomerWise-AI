@@ -16,9 +16,9 @@ const NavBar: React.FC = () => {
       {/* DESKTOP */}
       <div className="hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between mx-[41px] items-center">
-        <Link href="/">
-          <img src="/images/customerwise-ai.png" alt="logo" />
-        </Link>
+          <Link href="/">
+            <img src="/images/customerwise-ai.png" alt="logo" />
+          </Link>
           <div className="flex items-center gap-[40px] select-none">
             <Link href="/features" passHref>
               <p className="hover:bg-[#0005370d] hover:px-4 hover:py-2 hover:rounded-[10px] cursor-pointer flex items-center gap-2 font-[500] text-gray">
@@ -46,13 +46,13 @@ const NavBar: React.FC = () => {
         }`}
       >
         <div className="flex justify-between mx-[10px]">
-        <Link href="/">
-          <img
-            src="/images/customerwise-ai.png"
-            alt="logo"
-            className="w-[5rem]"
-          />
-        </Link>
+          <Link href="/">
+            <img
+              src="/images/customerwise-ai.png"
+              alt="logo"
+              className="w-[5rem]"
+            />
+          </Link>
           <div className="flex items-center gap-[40px]">
             {menu ? (
               <X
@@ -97,7 +97,11 @@ const NavBar: React.FC = () => {
                 text="Sign in"
                 classes="bg-white text-black border-[2px] border-gray-300 shadow-lg hover:bg-white"
               />
-              <MainButton text="Get Started" />
+              <Link href="/start">
+                <a>
+                  <button className="bg-blue-500 text-white py-2 px-4 rounded">Get Started</button>
+                </a>
+              </Link>
             </div>
           </div>
         )}
