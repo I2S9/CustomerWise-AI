@@ -1,4 +1,7 @@
-# 💬 CustomerWise AI
+# 🤖 CustomerWise AI
+
+![customerwiseai](https://github.com/user-attachments/assets/2a6fde69-3931-4bae-8734-d15985671f78)
+
 
 ## What it does 🚀
 
